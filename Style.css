@@ -1,0 +1,232 @@
+
+@font-face
+{
+     font-family: "open-sans";
+     src: url("/desktop/THCprojets/google/open-sans.regular.ttf");
+}
+
+
+
+.buttonjs
+{
+  
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   margin: 0 auto;
+   height: 100px;
+   width: 200px;
+   display: flex;
+   white-space: normal;
+}
+
+
+
+
+
+
+
+
+
+
+.nav
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+font-family: open-sans, Arial, Times;
+}
+
+.nav a
+{
+     padding: 6px;
+}
+
+.section
+{
+display: flex;
+     flex-direction: column;
+     justify-content: center;	
+     align-items: center;
+
+
+}
+
+.text
+
+{
+    
+     display: flex;
+     flex-direction: row;
+     justify-content: center;	
+     align-content: center;
+}
+
+
+
+
+
+.bouttons
+{
+	
+   
+     display: flex;
+     flex-direction: row;
+     justify-content: center;	
+     align-content: center;
+      padding-top: 20px;
+}
+
+.button
+{
+	background-color: #f8f8f8;
+	width: 150px;
+	height: 40px;
+	line-height: 27px;
+	color:#6d6d6d;
+	border: none;
+	border-radius:1px;
+	font-family: arial,sans-serif;
+    font-size: 0.83.5em;
+    font-weight: bold;
+    margin: 8px 4px;
+   
+    text-align: center;
+}
+
+.button:hover
+{
+	color: #232323;
+	border: 1px solid #b7b7b7;
+	box-shadow: 0px 1px 1px;
+
+}
+.img
+{
+	padding-top: 129px;
+	 display: flex;
+     flex-direction: row;
+     justify-content: center;	
+     align-content: center;
+
+}
+
+
+
+.barre
+{
+	margin-top: 20px;
+    	display: flex;
+    flex-direction: row;
+    justify-content: center;	
+    align-content: center;
+
+
+ }
+.barre:hover
+{
+outline: none;
+box-shadow: 1px 1px 5px;
+border-style: none;
+
+}
+.text a:link
+{
+color: blue;
+}
+
+
+
+
+
+footer
+{
+
+      display: flex;
+      justify-content: space-between;
+      font-family: open-sans, Arial, Times;
+      font-size: 0.85em;
+      text-justify: auto;
+
+background-color:#f8f8f8;
+height: 30px;
+
+position:absolute;
+bottom:0;
+width:100%;
+}
+
+
+.nav
+{
+  color: black;
+
+}
+
+ a:link
+{
+     text-decoration: none;
+}
+
+ a:link, a:visited, a:hover 
+{
+     color: #6d6d6d;
+}
+
+ a:hover 
+{
+     text-decoration: underline;
+}
+.gauchefr
+
+{
+  border-bottom: solid 1px #6D6D6D;
+font-family: open-sans, Arial, Times;
+      font-size: 0.85em;
+margin-top: 120px;
+
+height: 30px;
+background-color: #6D6D6D;
+position:absolute;
+bottom:0;
+width:100%;
+
+}
+
+
+
+
+
+.droite
+{
+    display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+}
+
+.droite a 
+{
+     
+     padding: 10px;
+}
+
+.gauche
+{
+     display: :flex;
+     flex-direction: row;
+      justify-content: flex-start;
+      padding-top: 6px;
+      
+      
+}
+
+body
+{
+
+
+  max-width: 2000px;
+}
+
+
+
